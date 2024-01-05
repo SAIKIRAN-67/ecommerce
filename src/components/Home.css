@@ -1,0 +1,76 @@
+
+.category{
+    border: 2px solid black;
+    height: 300px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px; 
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: gold;
+    >p{
+        font-size: 1.2em;
+        font-weight: bolder;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+}
+.shopnow{
+    border: 1px solid gold;
+    border-radius:10px;
+    padding: 5px;
+    font-weight: bolder;
+}
+.shoplinks{
+    text-decoration: none;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    width: auto;
+}
+.catr{
+    text-shadow: 1px 2px red;
+    font-style: italic;
+    font-size: 2em;
+    font-family:'Times New Roman', Times, serif;
+    color: gold;
+    margin-top: 40px;
+}
+.catgeory img{
+    height: 100px;
+    width: 100px;
+    object-fit:cover;
+}
+.Home{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.ads{
+    height: 400px;
+    width: 100%;
+    border: none;
+    margin-top: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.adsimage{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:728px) {
+    .Home{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+        align-items: center;
+        column-gap: 80px;
+        width: auto;
+        margin-right: 100px;
+    }
+}

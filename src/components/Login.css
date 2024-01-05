@@ -1,0 +1,19 @@
+.login{
+    margin-top: 150px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 5px 2px 2px black;
+}
+.login button{
+    border-radius: 5px 5px 5px 5px;
+    background-color: blue;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
